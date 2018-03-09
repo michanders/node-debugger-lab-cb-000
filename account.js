@@ -15,10 +15,10 @@ module.exports = function account() {
     }
   }
 
-  var signupBonus = 250,
-    deposit = 1000
+  var signupBonus = 250
 
-  var openAccount = function(account, deposit) {
+
+  var openAccount = function(account, deposit = 1000) {
     account.balance += signupBonus
     output['New balance after signup bonus is '] = account.balance
     account.balance += deposit
