@@ -1,4 +1,4 @@
-debug>
+
 module.exports = function account() {
   var output = {}
   var customerAccount = {
@@ -31,4 +31,4 @@ module.exports = function account() {
   output['Account after opening'] = customerAccount
   return output
 }
-debug>
+
