@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2018-03-09T18:13:51.124Z",
+    "end": "2018-03-09T18:13:51.134Z",
+    "duration": 10
+  },
+  "tests": [
+    {
+      "title": "must return the desired output",
+      "fullTitle": "account.js must return the desired output",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "account.js:19\n  var deposit = 1000\n  ^^^\n\nSyntaxError: Unexpected token var\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at require (internal/module.js:11:18)\n    at Context.<anonymous> (test/index.js:19:24)",
+        "message": "Unexpected token var"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must return the desired output",
+      "fullTitle": "account.js must return the desired output",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "account.js:19\n  var deposit = 1000\n  ^^^\n\nSyntaxError: Unexpected token var\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at require (internal/module.js:11:18)\n    at Context.<anonymous> (test/index.js:19:24)",
+        "message": "Unexpected token var"
+      }
+    }
+  ],
+  "passes": []
+}
